@@ -1,0 +1,239 @@
+/* 基础尺寸 */
+body {
+    width: 300px;
+    margin: 0;
+    padding: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #1e293b; /* 与书签容器一致 */
+    background: #f8fafc; /* 与容器背景接近 */
+}
+
+.popup-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border: 1px solid #e2e8f0; /* var(--gptb-color-border-default) */
+    border-radius: 12px; /* 与保存弹窗/书签容器统一圆角 */
+    background: rgba(249, 250, 254, 0.95); /* 与容器半透明卡片感一致 */
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.08); /* 统一阴影 */
+    padding: 16px; /* 内边距搬到容器上 */
+}
+
+.donation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donation-img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.version {
+    color: #666;
+    font-size: 12px;
+}
+
+.intro {
+    color: #64748b; /* 次级文字色 */
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+h2 {
+    margin: 0 0 12px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 4px 0;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+}
+
+.icon { display: none; }
+
+.feature-text {
+    flex: 1;
+}
+
+.feature-text p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: #334155;
+}
+
+footer {
+    margin-top: 8px;
+    padding-top: 16px;
+    border-top: 1px solid #eee;
+    text-align: center;
+}
+
+.support {
+    margin-bottom: 16px;
+}
+
+.support h3 {
+    margin: 0 0 12px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.qrcode {
+    width: 120px;
+    height: 120px;
+    margin: 8px auto;
+    border-radius: 4px;
+    display: block;
+}
+
+.donate {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.donate-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 6px;
+    border: 1px solid #e2e8f0;
+    object-fit: cover;
+}
+
+.support p {
+    margin: 8px 0 0;
+    font-size: 13px;
+    color: #666;
+}
+
+.links {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.links-top {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+#donateLink {
+    position: relative;
+}
+
+.donate-popover {
+    position: absolute;
+    top: 24px;
+    right: 0;
+    display: none;
+    padding: 8px;
+    background: rgba(249, 250, 254, 0.98);
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.12);
+    z-index: 2;
+}
+
+#donateLink:hover + #donatePopover,
+#donateLink:focus + #donatePopover,
+#donatePopover:hover {
+    display: block;
+}
+
+.links a {
+    color: #2c73d2;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.separator {
+    margin: 0 8px;
+    color: #ccc;
+}
+
+/* 深色模式 */
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #f1f5f9;
+        background: #0f172a;
+    }
+
+    header {
+        border-bottom-color: #334155;
+    }
+
+    .version {
+        color: #888;
+    }
+
+    .intro {
+        color: #cbd5e1;
+    }
+
+    /* 保留默认样式，移除空规则集 */
+
+    .feature-text p {
+        color: #ccc;
+    }
+
+    footer {
+        border-top-color: #334155;
+    }
+
+    .support p {
+        color: #888;
+    }
+
+    .links a {
+        color: #5c93d2;
+    }
+
+    .separator {
+        color: #444;
+    }
+    .popup-container {
+        border-color: #334155;
+        background: rgba(30, 41, 59, 0.95);
+        box-shadow: 0 10px 15px -3px rgba(0,0,0,0.35);
+    }
+}

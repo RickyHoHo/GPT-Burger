@@ -1,0 +1,359 @@
+{
+    "extDescription": {
+        "message": "收藏、跳转、整理你的GPT对话内容。可排序、编辑、导出，灵感不丢，结构清晰。",
+        "description": "扩展描述"
+    },
+    "introText": {
+        "message": "收藏、跳转、整理你的GPT对话内容。可排序、编辑、导出，灵感不丢，结构清晰。",
+        "description": "介绍文本"
+    },
+    "userGuide": {
+        "message": "使用指南",
+        "description": "使用指南标题"
+    },
+    "createBookmark": {
+        "message": "选中文本创建书签",
+        "description": "创建书签说明"
+    },
+    "clickToJump": {
+        "message": "单击书签跳转原文",
+        "description": "点击跳转说明"
+    },
+    "doubleClickToEdit": {
+        "message": "双击书签编辑名称",
+        "description": "双击编辑说明"
+    },
+    "dragToSort": {
+        "message": "拖动 ≡ 排序书签",
+        "description": "拖动排序说明"
+    },
+    "export": {
+        "message": "导出",
+        "description": "导出按钮文本"
+    },
+    "exportContent": {
+        "message": "导出内容",
+        "description": "导出内容标题"
+    },
+    "exportContentTooltip": {
+        "message": "导出内容并让GPT总结",
+        "description": "导出按钮提示"
+    },
+    "contactAuthor": {
+        "message": "联系作者",
+        "description": "联系作者标题"
+    },
+    "feedback": {
+        "message": "反馈/feedback",
+        "description": "反馈链接文本"
+    },
+    "feedbackLink": {
+        "message": "反馈/feedback",
+        "description": "弹窗反馈链接标签"
+    },
+    "donateLink": {
+        "message": "打赏 / Buy me a coffee",
+        "description": "弹窗打赏链接标签"
+    },
+    "selectMode": {
+        "message": "选择"
+    },
+    "doneMode": {
+        "message": "完成"
+    },
+    "newGroup": {
+        "message": "新建分组"
+    },
+    "defaultGroup": {
+        "message": "默认分组"
+    },
+    "delete": {
+        "message": "删除"
+    },
+    "move": {
+        "message": "移动"
+    },
+    "exportToGPT": {
+        "message": "导出到GPT"
+    },
+    "customPrompt": {
+        "message": "自定义提示语",
+        "description": "自定义提示语选项"
+    },
+    "confirmExport": {
+        "message": "确认导出"
+    },
+    "copy": {
+        "message": "拷贝"
+    },
+    "copyTooltip": {
+        "message": "直接拷贝到剪贴板"
+    },
+    "presetStructured": {
+        "message": "结构化"
+    },
+    "presetCreative": {
+        "message": "创意化"
+    },
+    "presetRecent": {
+        "message": "最近一次自定义"
+    },
+    "promptHeadPlaceholder": { "message": "开头提示词（可编辑）" },
+    "promptTailPlaceholder": { "message": "结尾提示词（可编辑）" },
+    "presetStructuredHead": { "message": "我收集了很多资料。请你帮我梳理层级与要点，输出结构清晰的总结：" },
+    "presetStructuredTail": { "message": "请用分层列表或小标题组织内容，尽量简洁准确。" },
+    "presetCreativeHead": { "message": "我挑选了一些点子。请你推测我的偏好，并继续发散更多方向：" },
+    "presetCreativeTail": { "message": "请按主题聚合，给出更多有延展性的新想法，并说明每个方向的可能价值。" },
+    "bake": {
+        "message": "烘焙"
+    },
+    "bakeIntro": {
+        "message": "我们会在你的书签内容前后加上你的提示词，你可以复制给 GPT 让它帮你整理或发散。",
+        "description": "烘焙弹窗引导文案"
+    },
+    "viewSwitch": {
+        "message": "视图"
+    },
+    "copySuccess": {
+        "message": "已复制到剪贴板，可以直接粘贴到GPT对话框中"
+    },
+    "copyFailed": {
+        "message": "复制到剪贴板失败，请重试"
+    },
+    "customPromptPlaceholder": {
+        "message": "例如：提取关键点"
+    },
+    "pleaseEnterPrompt": {
+        "message": "请填写自定义提示语"
+    },
+    "exportTip": {
+        "message": "选择导出方式后，内容将自动复制到剪贴板。你可以直接粘贴到GPT对话框中"
+    },
+    "hoverTip": {
+        "message": "提示：鼠标悬停在选项上可以查看详细说明"
+    },
+    "selectedItems": {
+        "message": "已选择 $COUNT$ 项",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "deleteConfirm": {
+        "message": "确定要删除选中的 $COUNT$ 个书签吗？",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "myBookmarks": {
+        "message": "我的书签"
+    },
+    "cancel": {
+        "message": "取消"
+    },
+    "confirm": {
+        "message": "确认"
+    },
+    "enterGroupName": {
+        "message": "输入分组名称"
+    },
+    "exportRaw": {
+        "message": "导出原文"
+    },
+    "exportRawTooltip": {
+        "message": "直接导出选中的内容，不添加任何提示语",
+        "description": "导出原文提示"
+    },
+    "exportQuotes": {
+        "message": "金句收集",
+        "description": "金句收集选项"
+    },
+    "exportQuotesTooltip": {
+        "message": "整理成简洁的金句列表，每条一句话，不做额外分析",
+        "description": "金句收集提示"
+    },
+    "exportStructured": {
+        "message": "结构化整理",
+        "description": "结构化整理选项"
+    },
+    "exportStructuredTooltip": {
+        "message": "整理成结构化文档，适合用于写方案或文档",
+        "description": "结构化整理提示"
+    },
+    "exportCreative": {
+        "message": "创意发散",
+        "description": "创意发散选项"
+    },
+    "exportCreativeTooltip": {
+        "message": "分类扩展，激发新思路，提供更多创意和建议",
+        "description": "创意发散提示"
+    },
+    "customPromptTooltip": {
+        "message": "告诉GPT如何处理你的内容",
+        "description": "自定义提示语提示"
+    },
+    "customPromptPrefix": {
+        "message": "这是我们对话的总结，\n请帮我"
+    },
+    "scrollContainerNotFound": {
+        "message": "未找到滚动容器"
+    },
+    "bookmarkElementCreateFailed": {
+        "message": "书签元素创建失败：缺少必要的DOM元素"
+    },
+    "bookmarkListContainerNotFound": {
+        "message": "未找到书签列表容器，重新创建UI"
+    },
+    "draggedBookmarkNotFound": {
+        "message": "未找到拖拽的书签"
+    },
+    "inputFieldNotFound": {
+        "message": "未找到输入框元素"
+    },
+    "dialogNotFound": {
+        "message": "未找到弹窗元素"
+    },
+    "quickActionDialogNotFound": {
+        "message": "未找到快速操作弹窗"
+    },
+    "groupContainerNotFound": {
+        "message": "未找到分组容器"
+    },
+    "saveBookmark": {
+        "message": "保存"
+    },
+    "writeNotes": {
+        "message": "章节标题，速记..."
+    },
+    "batchSelect": {
+        "message": "批量选择"
+    },
+    "moveToGroup": {
+        "message": "移动到分组"
+    },
+    "addNewGroup": {
+        "message": "+ 新分组"
+    },
+    "defaultEmojis": {
+        "message": "🍅番茄,🥬生菜,🧀奶酪,🥒酸黄瓜"
+    },
+    "noBookmarks": {
+        "message": "该分组暂无书签"
+    },
+    "defaultGroupName": {
+        "message": "默认分组"
+    },
+    "selectTargetGroup": {
+        "message": "选择目标分组"
+    },
+    "removeFromGroup": {
+        "message": "移出分组"
+    },
+    "organizeAndExport": {
+        "message": "整理 + 一键导出"
+    },
+    "save": {
+        "message": "保存"
+    },
+    "addGroup": {
+        "message": "+ 新分组"
+    },
+    "deleteSelected": {
+        "message": "删除选中"
+    },
+    "batchDelete": {
+        "message": "批量删除"
+    },
+    "batchMove": {
+        "message": "移动"
+    },
+    "selectAll": {
+        "message": "全选"
+    },
+    "unselectAll": {
+        "message": "取消全选"
+    },
+    "deleteGroup": {
+        "message": "删除分组"
+    },
+    "editGroup": {
+        "message": "编辑分组"
+    },
+    "collapseGroup": {
+        "message": "收起分组"
+    },
+    "expandGroup": {
+        "message": "展开分组"
+    },
+    "noGroupSelected": {
+        "message": "未选择分组"
+    },
+    "deleteGroupConfirm": {
+        "message": "确定要删除这个分组吗？"
+    },
+    "deleteBookmarkConfirm": {
+        "message": "确定要删除这个书签吗？"
+    },
+    "group": {
+        "message": "组"
+    },
+    "exportRawPrompt": {
+        "message": "以下是我们对话中的一些重要摘录：\n\n",
+        "description": "导出原文的提示语"
+    },
+    "exportQuotesPrompt": {
+        "message": "以下是我们对话中的一些关键金句。请帮我整理成简洁的金句列表，每条一句话，不做额外分析：\n\n",
+        "description": "金句收集的提示语"
+    },
+    "exportStructuredPrompt": {
+        "message": "以下是我们对话中的一些重要摘录。请帮我整理成结构化的文档，包含章节和要点：\n\n",
+        "description": "结构化整理的提示语"
+    },
+    "exportCreative": {
+        "message": "创意整理",
+        "description": "创意整理选项"
+    },
+    "exportCreativeTooltip": {
+        "message": "用创意的方式重新组织内容，适合激发新想法",
+        "description": "创意整理提示"
+    },
+    "exportCreativePrompt": {
+        "message": "以下是我们对话中的一些重要内容。请用创意的方式重新整理，加入你的见解和延伸思考：\n\n",
+        "description": "创意整理的提示语"
+    },
+    "customPromptPrefix": {
+        "message": "这是我们聊天的总结，\n请帮我",
+        "description": "自定义提示语前缀"
+    },
+    "customPromptTooltip": {
+        "message": "自定义提示语，让GPT按你的要求处理内容",
+        "description": "自定义提示语说明"
+    },
+    "sortByTime": {
+        "message": "时间",
+        "description": "时间排序按钮文本"
+    },
+    "sortByGroup": {
+        "message": "分组",
+        "description": "分组排序按钮文本"
+    },
+    "sortModeTime": {
+        "message": "时间排序",
+        "description": "时间排序模式"
+    },
+    "sortModeGroup": {
+        "message": "分组排序",
+        "description": "分组排序模式"
+    },
+    "addTitlePlaceholder": {
+        "message": "添加标题...",
+        "description": "书签标题输入框的占位文字"
+    },
+    "untitled": {
+        "message": "无标题",
+        "description": "没有标题时的默认标题"
+    }
+} 

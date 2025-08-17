@@ -1,0 +1,335 @@
+{
+    "extDescription": {
+        "message": "Bookmark, navigate, and organize your GPT conversations. Sort, edit, and export with clarity and structure.",
+        "description": "Extension description"
+    },
+    "introText": {
+        "message": "Bookmark, navigate, and organize your GPT conversations. Sort, edit, and export with clarity and structure.",
+        "description": "Introduction text"
+    },
+    "userGuide": {
+        "message": "User Guide",
+        "description": "User guide title"
+    },
+    "createBookmark": {
+        "message": "Select text to create bookmark",
+        "description": "Create bookmark instruction"
+    },
+    "clickToJump": {
+        "message": "Click bookmark to jump to original",
+        "description": "Click to jump instruction"
+    },
+    "doubleClickToEdit": {
+        "message": "Double click to edit bookmark name",
+        "description": "Double click to edit instruction"
+    },
+    "dragToSort": {
+        "message": "Drag ≡ to sort bookmarks",
+        "description": "Drag to sort instruction"
+    },
+    "export": {
+        "message": "Export",
+        "description": "Export button text"
+    },
+    "exportContent": {
+        "message": "Export Content",
+        "description": "Export content title"
+    },
+    "exportContentTooltip": {
+        "message": "Export and let GPT summarize",
+        "description": "Export button tooltip"
+    },
+    "contactAuthor": {
+        "message": "Contact Author",
+        "description": "Contact author title"
+    },
+    "feedback": {
+        "message": "Feedback",
+        "description": "Feedback link text"
+    },
+    "feedbackLink": {
+        "message": "Feedback",
+        "description": "Label for feedback link in popup"
+    },
+    "donateLink": {
+        "message": "Buy me a coffee",
+        "description": "Label for donate link in popup"
+    },
+    "selectMode": {
+        "message": "Select"
+    },
+    "doneMode": {
+        "message": "Done"
+    },
+    "newGroup": {
+        "message": "New Group"
+    },
+    "defaultGroup": {
+        "message": "Default Group"
+    },
+    "delete": {
+        "message": "Delete"
+    },
+    "move": {
+        "message": "Move"
+    },
+    "exportToGPT": {
+        "message": "Export to GPT"
+    },
+    "customPrompt": {
+        "message": "Custom Prompt"
+    },
+    "confirmExport": {
+        "message": "Confirm Export"
+    },
+    "copy": {
+        "message": "Copy"
+    },
+    "copyTooltip": {
+        "message": "Directly copies to clipboard"
+    },
+    "presetStructured": {
+        "message": "Structured"
+    },
+    "presetCreative": {
+        "message": "Creative"
+    },
+    "presetRecent": {
+        "message": "Recent"
+    },
+    "promptHeadPlaceholder": { "message": "Prompt at beginning (editable)" },
+    "promptTailPlaceholder": { "message": "Prompt at end (editable)" },
+    "presetStructuredHead": { "message": "I collected many materials. Please help me organize the hierarchy and key points, and output a clear structured summary:" },
+    "presetStructuredTail": { "message": "Use layered lists or small headings; keep it concise and accurate." },
+    "presetCreativeHead": { "message": "I picked some ideas. Please infer my preferences and expand more directions:" },
+    "presetCreativeTail": { "message": "Group by themes, propose more extensible new ideas, and explain the potential value of each direction." },
+    "bake": {
+        "message": "Bake"
+    },
+    "bakeIntro": {
+        "message": "We will add your prompts before and after the selected content. You can copy it to GPT to help organize or brainstorm.",
+        "description": "Intro text for Bake modal"
+    },
+    "viewSwitch": {
+        "message": "View"
+    },
+    "copySuccess": {
+        "message": "Content copied to clipboard. You can paste it directly into the GPT chat."
+    },
+    "copyFailed": {
+        "message": "Failed to copy to clipboard. Please try again."
+    },
+    "customPromptPrefix": {
+        "message": "This is my summary of our chat,\nplease help me"
+    },
+    "customPromptPlaceholder": {
+        "message": "e.g., summarize key points"
+    },
+    "pleaseEnterPrompt": {
+        "message": "Please enter a custom prompt"
+    },
+    "exportTip": {
+        "message": "After selecting an export method, the content will be automatically copied to your clipboard. You can paste it directly into the GPT chat window."
+    },
+    "hoverTip": {
+        "message": "Tip: Hover over options to see detailed descriptions"
+    },
+    "selectedItems": {
+        "message": "$COUNT$ items selected",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "deleteConfirm": {
+        "message": "Are you sure you want to delete $COUNT$ selected bookmarks?",
+        "placeholders": {
+            "count": {
+                "content": "$1"
+            }
+        }
+    },
+    "myBookmarks": {
+        "message": "My Burger"
+    },
+    "cancel": {
+        "message": "Cancel"
+    },
+    "confirm": {
+        "message": "Confirm"
+    },
+    "enterGroupName": {
+        "message": "Enter group name"
+    },
+    "exportRaw": {
+        "message": "Export Original"
+    },
+    "exportRawTooltip": {
+        "message": "Export selected content directly without any prompts"
+    },
+    "exportQuotes": {
+        "message": "Quote Collection"
+    },
+    "exportQuotesTooltip": {
+        "message": "Organize into a concise list of quotes, one sentence per item, without additional analysis. Perfect for collecting key points and conclusions."
+    },
+    "exportStructured": {
+        "message": "Structured Organization"
+    },
+    "exportStructuredTooltip": {
+        "message": "Organize into a structured document with chapters and key points. Ideal for writing proposals, documents, or notes."
+    },
+    "exportCreative": {
+        "message": "Creative Expansion"
+    },
+    "exportCreativeTooltip": {
+        "message": "Categorize and expand ideas. Provide more creative suggestions, examples, and recommendations for each category to help brainstorming."
+    },
+    "customPromptTooltip": {
+        "message": "Use a custom prompt to have GPT process the content according to your specific requirements",
+        "description": "Custom prompt tooltip"
+    },
+    "scrollContainerNotFound": {
+        "message": "Scroll container not found"
+    },
+    "bookmarkElementCreateFailed": {
+        "message": "Failed to create bookmark element: missing required DOM elements"
+    },
+    "bookmarkListContainerNotFound": {
+        "message": "Bookmark list container not found, recreating UI"
+    },
+    "draggedBookmarkNotFound": {
+        "message": "Dragged bookmark not found"
+    },
+    "inputFieldNotFound": {
+        "message": "Input field not found"
+    },
+    "dialogNotFound": {
+        "message": "Dialog element not found"
+    },
+    "quickActionDialogNotFound": {
+        "message": "Quick action dialog not found"
+    },
+    "groupContainerNotFound": {
+        "message": "Group container not found"
+    },
+    "saveBookmark": {
+        "message": "Save"
+    },
+    "writeNotes": {
+        "message": "Chapter title, quick notes..."
+    },
+    "batchSelect": {
+        "message": "Batch Select"
+    },
+    "moveToGroup": {
+        "message": "Move"
+    },
+    "addNewGroup": {
+        "message": "+ New Group"
+    },
+    "defaultEmojis": {
+        "message": "🍅 Tomato,🥬 Lettuce,🧀 Cheese,🥒 Pickle"
+    },
+    "noBookmarks": {
+        "message": "No bookmarks in this group"
+    },
+    "defaultGroupName": {
+        "message": "Default Group"
+    },
+    "selectTargetGroup": {
+        "message": "Select Target Group"
+    },
+    "removeFromGroup": {
+        "message": "Remove from Group"
+    },
+    "organizeAndExport": {
+        "message": "Organize & Export"
+    },
+    "save": {
+        "message": "Save"
+    },
+    "addGroup": {
+        "message": "+ New Group"
+    },
+    "deleteSelected": {
+        "message": "Delete"
+    },
+    "batchDelete": {
+        "message": "Batch Delete"
+    },
+    "batchMove": {
+        "message": "Move"
+    },
+    "selectAll": {
+        "message": "Select All"
+    },
+    "unselectAll": {
+        "message": "Unselect All"
+    },
+    "deleteGroup": {
+        "message": "Delete Group"
+    },
+    "editGroup": {
+        "message": "Edit Group"
+    },
+    "collapseGroup": {
+        "message": "Collapse Group"
+    },
+    "expandGroup": {
+        "message": "Expand Group"
+    },
+    "noGroupSelected": {
+        "message": "No group selected"
+    },
+    "deleteGroupConfirm": {
+        "message": "Are you sure you want to delete this group?"
+    },
+    "deleteBookmarkConfirm": {
+        "message": "Are you sure you want to delete this bookmark?"
+    },
+    "group": {
+        "message": "Group"
+    },
+    "exportRawPrompt": {
+        "message": "Here are some important excerpts from our conversation:\n\n",
+        "description": "Prompt text for raw export"
+    },
+    "exportQuotesPrompt": {
+        "message": "Here are some key quotes from our conversation. Please help me organize them into a concise list, one sentence per item, without additional analysis:\n\n",
+        "description": "Prompt text for quotes export"
+    },
+    "exportStructuredPrompt": {
+        "message": "Here are some important excerpts from our conversation. Please help me organize them into a structured document with chapters and key points:\n\n",
+        "description": "Prompt text for structured export"
+    },
+    "exportCreativePrompt": {
+        "message": "Here are some important excerpts from our conversation. Please help me reorganize them creatively, adding your insights and extended thoughts:\n\n",
+        "description": "Prompt text for creative export"
+    },
+    "sortByTime": {
+        "message": "Time",
+        "description": "Time sort button text"
+    },
+    "sortByGroup": {
+        "message": "Group",
+        "description": "Group sort button text"
+    },
+    "sortModeTime": {
+        "message": "Time Sort",
+        "description": "Time sort mode"
+    },
+    "sortModeGroup": {
+        "message": "Group Sort",
+        "description": "Group sort mode"
+    },
+    "addTitlePlaceholder": {
+        "message": "Add a title...",
+        "description": "Placeholder text for the bookmark title input field."
+    },
+    "untitled": {
+        "message": "Untitled",
+        "description": "Default title for a bookmark without a title."
+    }
+} 

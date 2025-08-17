@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>GPT Burger</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="popup-container">
+        <header>
+            <img src="icons/icon48.png" alt="GPT Burger" class="logo">
+            <h1>GPT Burger</h1>
+            <span class="version">v1.3.3</span>
+        </header>
+
+        <section class="intro">
+            <p id="introText"></p>
+        </section>
+
+        <section class="features">
+            <h2 id="userGuide"></h2>
+            <div class="feature-item">
+                <span class="icon">📌</span>
+                <div class="feature-text">
+                    <p id="createBookmark"></p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <span class="icon">🔍</span>
+                <div class="feature-text">
+                    <p id="clickToJump"></p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <span class="icon">✏️</span>
+                <div class="feature-text">
+                    <p id="doubleClickToEdit"></p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <span class="icon">↕️</span>
+                <div class="feature-text">
+                    <p id="dragToSort"></p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <span class="icon">📤</span>
+                <div class="feature-text">
+                    <p id="exportContent"></p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="links links-top">
+                <a href="https://rt4u08ihze.feishu.cn/share/base/form/shrcnRA6dbHVTjRy6uPflNCAnrc" id="feedback" target="_blank"></a>
+                <span class="separator">|</span>
+                <a href="#" id="donateLink"></a>
+                <div class="donate-popover" id="donatePopover">
+                    <img src="icons/收款码.png" alt="Donate QR" class="donation-img">
+                </div>
+            </div>
+            <div class="support">
+                <h3 id="contactAuthor"></h3>
+                <img src="qrcode.png" alt="QR Code" class="qrcode">
+            </div>
+            <div class="links"></div>
+        </footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html> 
